@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Publish to Registry
-      uses: cargauer/hello-github-actions@master
+      uses: cargauer/hello-github-actions/action-a@master
       with:
         name: cargauer/hga/hello
         username: ${{ secrets.DOCKER_USERNAME }}
